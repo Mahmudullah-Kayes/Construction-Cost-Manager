@@ -1,9 +1,30 @@
 # Construction Cost Manager
 
-A simple web application to track construction costs, including materials, labor, and miscellaneous expenses. Designed as a lightweight alternative to spreadsheets.
+A dynamic web application for tracking construction costs, including materials, labor, and miscellaneous expenses. Built with React and Laravel, it can be deployed locally or on a server for simple, centralized cost management.
 
 ---
+## Run Locally
 
+### Backend
+1. Go to `backend` folder.  
+2. Create a database (e.g., with XAMPP).  
+3. Run migrations: `php artisan migrate`  
+4. Start Laravel server: `php artisan serve`  
+
+### Frontend
+1. Go to `frontend` folder.  
+2. Install dependencies: `npm install`  
+3. Start React server: `npm start`  
+
+### Access
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Hosting Online
+- Deploy backend and frontend like normal websites.  
+- Configure the database.  
+- All users share the same project data.
+
+# Features
 ## 1. Materials Section
 
 - Each material has its own page/tab  
