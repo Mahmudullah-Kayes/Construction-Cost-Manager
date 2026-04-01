@@ -1,74 +1,63 @@
-1. Materials Section
+# Construction Cost Manager
 
-Each material has its own tab/page.
+A simple web application to track construction costs, including materials, labor, and miscellaneous expenses. Designed as a lightweight alternative to spreadsheets.
 
-Inside each material page, you can add entries like:
+---
 
-Date
+## 1. Materials Section
 
-Material name (optional if it’s fixed per tab)
+- Each material has its own page/tab  
+- Add entries with:
+  - Date  
+  - Material name *(optional if fixed per tab)*  
+  - Amount (quantity)  
+  - Price  
+  - Note *(optional)*  
 
-Amount (quantity)
+**Table Features:**
+- Edit entries  
+- Delete entries  
+- Total cost per material (sum of prices)  
+- Filter entries (e.g., by material or specific criteria)  
 
-Price
+---
 
-Note (optional)
+## 2. Labor Cost Section
 
-Displayed as a clean table with:
+- Single page to track labor expenses  
+- Fields:
+  - Date  
+  - Paid amount  
+  - Note *(optional)*  
 
-Edit
+**Includes:**
+- Table view  
+- Running total  
 
-Delete
+---
 
-Total for this material (sum of price)
+## 3. Miscellaneous Cost Section
 
-2. Labor Cost Section
+- Track additional/random expenses  
+- Fields:
+  - Date  
+  - Cost name  
+  - Price  
+  - Note *(optional)*  
 
-One simple page:
+**Includes:**
+- Table view  
+- Total cost  
 
-Date
+---
 
-Paid amount
+## 4. Summary Page
 
-Note (optional)
+- Total materials cost  
+- Total labor cost  
+- Total miscellaneous cost  
+- **Grand total**
 
-Table + running total.
+> No charts or advanced analytics included
 
-3. Random / Misc Cost Section
-
-One simple page:
-
-Date
-
-Cost name
-
-Price
-
-Note (optional)
-
-Table + total.
-
-4. Summary Page (Very Simple)
-
-Total of all materials combined
-
-Total labor cost
-
-Total random cost
-
-Grand total
-(No charts, no extra filters unless you want later.)
-
-5. PDF Export
-
-You can export:
-
-Materials report (per material tab)
-
-Labor report
-
-Random cost report
-
-Full project summary (optional)
-
-Very simple layout: header + table + totals.
+---
